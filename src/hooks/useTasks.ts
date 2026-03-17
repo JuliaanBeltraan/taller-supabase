@@ -1,5 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
-import { supabase } from '../lib/supabaseClient'  // ← FALTABA ESTO
+import { useState, useEffect, useCallback } from 'react' 
 import { taskService } from '../services/taskservice'
 import type { Tarea, TareaInsert, TareaUpdate } from '../types/database'
 
